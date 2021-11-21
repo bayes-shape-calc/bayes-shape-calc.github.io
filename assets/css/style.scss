@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+$baseurl: "{{ site.baseurl }}";
 
 .page-header {
     color: #fff;
@@ -12,7 +13,7 @@
 }
 
 body {
-    background-image: url('/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg');
+    background-image: url('#{$baseurl}/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg');
     background-size: 100% auto;
     background-color: #000000;
     background-repeat: no-repeat;
