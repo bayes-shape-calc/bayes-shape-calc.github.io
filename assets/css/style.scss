@@ -1,0 +1,74 @@
+---
+---
+
+@import "{{ site.theme }}";
+$baseurl: "{{ site.baseurl }}";
+
+.page-header {
+    color: #fff;
+    text-align: left;
+    background-color: transparent;
+    background-image: none;
+    background-blend-mode: color-burn;
+}
+
+body {
+    background-image: url('{{ '/michael-dziedzic-gEN5Btvf2Eg-unsplash-2.jpg' | relative_url }} ');
+    background-size: 100% auto;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFF;
+    text-align: left;
+    padding: 3rem 3rem;
+    margin: 0 0;
+}
+
+@media screen and (min-width: 64em) {
+    .main-content {
+        max-width: 64rem;
+        padding: 3rem 3rem;
+        margin: 0 0;
+        font-size:1.1rem
+    }
+
+    .page-header {
+        padding: 3rem 3rem;
+    }
+}
+
+
+.btn {
+    margin-bottom: 1rem;
+    color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,.2);
+    border-color: rgba(255,255,255,1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.project-tagline {
+    margin-bottom: 2rem;
+    font-weight: normal;
+    opacity: 1;
+}
+
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+    text-decoration:none;
+		font-weight:bold;
+}
+
+.site-footer-owner {
+    display: block;
+    font-weight:normal;
+}

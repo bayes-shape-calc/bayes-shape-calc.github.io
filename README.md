@@ -1,2 +1,2 @@
 # bayes-shape-calc.github.io
-use the gh-pages branch...
+Using jekyll
