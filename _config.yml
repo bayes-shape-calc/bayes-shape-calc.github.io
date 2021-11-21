@@ -1,1 +1,20 @@
+# Site settings
+title: "Bayesian Shape Calculation"
+description: "Using Bayesian inference to calculate the shape of data."
+github_username: bayes-shape-calc
+# you can comment the below line out if your repo name is not different than your baseurl
+#github_repo: "examples"
+
+
+# OPTIONAL: override baseurl and url if using a custom domain
+# Note: leave out the trailing / from this value. 
+#url: "https://bayes-shape-calc.github.io"
+
+
+github.is_project_page: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
 theme: jekyll-theme-cayman
