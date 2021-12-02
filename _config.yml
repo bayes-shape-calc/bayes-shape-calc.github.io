@@ -8,7 +8,7 @@ github_username: bayes-shape-calc
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
-#url: "https://bayes-shape-calc.github.io"
+url: "https://bayes-shape-calc.github.io"
 
 
 github.is_project_page: true
