@@ -11,6 +11,11 @@
     background-blend-mode: color-burn;
 }
 
+.project-name {
+    margin-top: 2.5rem;
+    margin-bottom: 0.1rem;
+}
+
 body {
     background-image: url('{{ '/imgs/michael-dziedzic-gEN5Btvf2Eg-unsplash-2.jpg' | relative_url }} ');
     background-size: 100% auto;
@@ -29,7 +34,7 @@ body {
         padding: 1rem 3rem;
         margin: 0 0;
         font-size:1.1rem
-    }
+    }	
 
     .page-header {
         padding: 1rem 3rem;
